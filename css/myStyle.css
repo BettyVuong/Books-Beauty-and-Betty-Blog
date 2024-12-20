@@ -1,0 +1,85 @@
+.header {
+  position: relative;
+  height: 325px;
+  background-image: url("../img/img_2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  background-color:#FFD1DC;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  border-radius: 0;
+  background-color: white;
+  width: 100%;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+.navbar-collapse {
+  background-color: white; /* Ensure the collapsible menu matches */
+}
+
+.navbar-nav li {
+  background-color: white; /* Ensure list items match the navbar */
+  color: black; /* Set text color for links */
+}
+
+.navbar-nav {
+  background-color: white; /* Ensure the list matches the navbar */
+}
+
+.navbar-inverse {
+  background-color: white !important; /* Override any Bootstrap dark theme */
+}
+
+.navbar-nav.navbar-center {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  width: 100%;
+}
+
+.blog-content{
+  width: 100%;
+}
+
+.footer {
+  background: white;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.navbar-nav li:hover {
+  background-color: #ffd1dc;
+  color: white;
+}
+
+li{
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
+  border-right: 1px solid black;
+  font-family: "Lucida Console", Verdana, monospace;
+}
+
+.navbar-nav li:first-child{
+  border-left: 1px solid black;
+}
+.active {
+  background-color: #FFC0CB;
+}
+
+.blog-content{
+
+}
