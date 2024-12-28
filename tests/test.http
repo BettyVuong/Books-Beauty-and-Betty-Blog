@@ -1,0 +1,11 @@
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "title": "Test Post",
+  "category": "Tech",
+  "date": "2024-12-27",
+  "image": null,
+  "blurb": "This is a test post blurb.",
+  "content": "This is the content of the test post."
+}
